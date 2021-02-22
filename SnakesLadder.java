@@ -21,7 +21,7 @@ public class SnakesLadder {
             }
 
         }
-        System.out.println("player 1 won !!!");
+        System.out.println("player 1 won......!!!");
        
         
     }
