@@ -4,6 +4,7 @@ public class SnakesLadder {
     public static final int SNAKE = 2;
     public static void main(String[] args) {
         System.out.println("Welcome to Snakes and ladder program");
+        int die_Count = 0;
         int player1_Position = 0;
         while(player1_Position != 100){
             int option = (int) Math.floor(Math.random() * 10) % 3;
@@ -20,8 +21,10 @@ public class SnakesLadder {
                 System.out.println("Position of player is: " + player1_Position);
             }
 
+            die_Count++;
         }
-        System.out.println("player 1 won......!!!");
+        System.out.println("player 1 won....!!!");
+        System.out.println("no of time die thrown is: " + die_Count);
        
         
     }
